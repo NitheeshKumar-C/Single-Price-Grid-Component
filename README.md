@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL here](https://your-solution-url.com)
-- [Live Site here](https://your-live-site-url.com)
+- [Live Site here](https://nitheeshkumar-c.github.io/Single-Price-Grid-Component/)
 
 ## My process
 
