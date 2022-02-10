@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL here](https://your-solution-url.com)
+- [Solution URL here](https://www.frontendmentor.io/solutions/using-bootstrap-css-grid-GUfwPmM2V)
 - [Live Site here](https://nitheeshkumar-c.github.io/Single-Price-Grid-Component/)
 
 ## My process
