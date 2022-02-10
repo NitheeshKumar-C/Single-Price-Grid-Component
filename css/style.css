@@ -134,7 +134,7 @@ footer{
 }
 
 /* animations */
-/* @keyframes slide{
+@keyframes slide{
     0%{
         position: relative;
         left: 50%;
@@ -167,4 +167,4 @@ footer{
         opacity: 1;
     }
 
-} */
+}
