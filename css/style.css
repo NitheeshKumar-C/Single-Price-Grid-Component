@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-color: hsl(204, 43%, 93%) ;
+    font-family: 'Karla', sans-serif;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    max-width: 45%;
+}
+
+
+.div-first,.div-second,.div-last{
+    padding: 40px;
+}
+.description{
+    margin-top: 20px;
+}
+.div2{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.div-second,.div-last{
+    color: white;
+}
+.div-last h4,.div-second h4{
+    font-weight: 600;
+    animation-name: slide-up;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
+}
+
+/* first div / row */
+.div-first{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.div-first h1{
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
+}
+
+.div-first h5{
+    color: hsl(71, 73%, 54%);
+    font-weight: 600;
+}
+.div-first p{
+    margin-top: 10px;
+    margin-right: 50px;
+    font-weight: 400;
+    color: hsl(218, 22%, 67%);
+}
+
+
+/* secound div */
+.div-second{
+    background-color: hsl(179, 62%, 43%);
+    border-radius:0 0 0 0.5rem;
+}
+.fee{
+    padding-right: 15px;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.div-second p{
+    margin: 0;
+
+}
+.price{
+    display: flex;
+    align-items: center;
+}
+.s2{
+    color: hsla(0, 0%, 100%, 0.473);
+}
+.bttn{
+    background-color: hsl(71, 73%, 54%);
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 0.25rem;
+    margin-top: 45px;
+    box-shadow: 0 20px 30px -12px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+
+    animation-name: expand;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
+}
+.bttn:hover{
+    box-shadow: 0 20px 30px -12px rgba(143, 255, 128, 0.212);
+    color: hsl(59, 100%, 86%);
+}
+/* last-div */
+.div-last{
+    background-color: hsl(179, 84%, 41%);
+    border-radius:0 0 0.5rem 0;
+}
+
+.div-last p{
+    font-family: 'Karla', sans-serif;
+    color: hsla(203, 44%, 93%, 0.863) ;
+    width: fit-content;
+}
+
+/* footer */
+footer{
+    margin: 3% 0 0 0;
+}
+.attribution{
+    font-weight: 600;
+}
+.attribution a{
+    color: hsl(179, 62%, 43%);
+}
+
+/* animations */
+/* @keyframes slide{
+    0%{
+        position: relative;
+        left: 50%;
+        opacity: 0;
+    }
+    100%{
+        left: -50%;
+        opacity: 1;
+    }
+
+}
+@keyframes slide-up{
+    0%{
+        transform: rotateX(100deg);
+        opacity: 0;
+    }
+    100%{
+        transform: rotateX(0deg);
+        opacity: 1;
+    }
+
+}
+@keyframes expand{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+
+} */
